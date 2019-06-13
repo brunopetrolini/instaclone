@@ -8,7 +8,6 @@ import more from '../assets/more.svg';
 import like from '../assets/like.svg';
 import comment from '../assets/comment.svg';
 import send from '../assets/send.svg';
-import { pairs } from 'rxjs';
 
 class Feed extends Component {
   state = {
