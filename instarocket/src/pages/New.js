@@ -69,7 +69,7 @@ export default class New extends Component {
 
   render() {
     return (
-      <View style={StyleSheet.container}>
+      <View style={styles.container}>
         <TouchableOpacity style={styles.selectButton} onPress={this.handleScelectImage}>
           <Text style={styles.selectButtonText}>Selecionar Imagem</Text>
         </TouchableOpacity>
